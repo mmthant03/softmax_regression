@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 # conduct stochastic gradient descent (SGD) to optimize the weight matrix W (785x10).
 # Then return W.
 def softmaxRegression (trainingImages, trainingLabels, testingImages, testingLabels, epsilon = None, batchSize = None):
+
     pass
 
 if __name__ == "__main__":
@@ -16,6 +17,7 @@ if __name__ == "__main__":
 
     # Append a constant 1 term to each example to correspond to the bias terms
     # ...
+    
 
     W = softmaxRegression(trainingImages, trainingLabels, testingImages, testingLabels, epsilon=0.1, batchSize=100)
     
